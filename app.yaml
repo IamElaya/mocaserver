@@ -3,4 +3,4 @@ env: flex
 runtime: ruby
 
 env_variables:
-  SECRET_KEY_BASE: [0e9bc9f508cb39babd678a23f227c08a622363a563aa9046ceb206b0fc845fade84ddef1e10c154bb6da5f4c9fa4ce237a3139a5edb8cbf4cbd2d4b3f012b251]
+  SECRET_KEY_BASE: 0e9bc9f508cb39babd678a23f227c08a622363a563aa9046ceb206b0fc845fade84ddef1e10c154bb6da5f4c9fa4ce237a3139a5edb8cbf4cbd2d4b3f012b251
