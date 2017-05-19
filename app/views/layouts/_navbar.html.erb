@@ -7,7 +7,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="#"><img id="logo" src="/assets/logo-1.png" alt="Logo of Website"><%= link_to "", root_path %></a>
+        <a href="#"><img id="logo" src="<%= asset_path("logo-1.png") %>" alt="Logo of Website"><%= link_to "", root_path %></a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
@@ -16,8 +16,8 @@
           <li class="navoptions"><a href="#footer">Contact</a></li>
           <li class="navoptions"><%= link_to "Blogs", body_shops_blog_path %></li>
           <li class="navoptions"><%= link_to "Partners", body_shops_partner_path %></li>
-          <li class="navoptions"><a href="https://www.facebook.com/mocaestimator/?fref=ts"><img src="/assets/fbbtn.png" alt="Facebook Icon"></a></li>
-          <li class="navoptions"><a href="https://plus.google.com/114693879745430004744"><img src="/assets/glebtn.png" alt="Google Plus Icon"></a></li>
+          <li class="navoptions"><a href="https://www.facebook.com/mocaestimator/?fref=ts"><img src="<%= asset_path("fbbtn.png") %>" alt="Facebook Icon"></a></li>
+          <li class="navoptions"><a href="https://plus.google.com/114693879745430004744"><img src="<%= asset_path("glebtn.png") %>" alt="Google Plus Icon"></a></li>
         </ul>
       </div>
     </div>  
