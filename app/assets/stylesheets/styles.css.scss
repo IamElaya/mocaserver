@@ -154,7 +154,7 @@ nav {
 }*/
 
 
-#logo {
+#logo img {
   height: 5vw;
   margin-left: 5%;
 }
@@ -915,6 +915,7 @@ span:hover {
 
 .blogintro {
   padding-bottom: 0;
+  background-image: image-url("slider_1.jpg");
 }
 
 hr.small {
@@ -1089,6 +1090,7 @@ hr.blackline {
 
 .bodyshop {
   padding-bottom: 0;
+  background-image: image-url("slider_1.jpg")
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
