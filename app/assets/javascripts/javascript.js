@@ -34,6 +34,11 @@ $(function formValidation() {
     // checkPhoneNumber($('#inputPhoneNumber').val())
   });
 
+  // $('#inputVinNumber').on('focusout', function(){
+  //   checkVinNumber($('#inputVinNumber').val())
+  //   // checkPhoneNumber($('#inputPhoneNumber').val())
+  // });
+
   function checkName(name) {
     if (name.match(/^[a-z ,.'-]+$/i))
       $("#nameForm p").text("");
@@ -83,6 +88,13 @@ $(function formValidation() {
     else
       $("#phoneNumberForm p").text("Phone Number Not Valid").css({color:"Red"});
   }
+
+  // function checkVinNumber(vinNumber) {
+  //   if (vinNumber.match(/^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/))
+  //     $("#vinNumberForm p").text("");
+  //   else
+  //     $("#vinNumberForm p").text("VIN Number Not Valid").css({color:"Red"});
+  // }
 });
 
 $(document).click(function (event) {

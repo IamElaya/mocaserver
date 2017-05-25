@@ -711,7 +711,11 @@ span:hover {
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
-  #logo { height: 15vw; }   /* hide it elsewhere */
+  #logo { height: 13vw; }   /* hide it elsewhere */
+}
+
+@media screen and (min-width: 0px) and (max-width: 450px) {
+  #logo img { height: 13vw; }   /* hide it elsewhere */
 }
 
 @media screen and (min-width: 0px) and (max-width: 450px) {
