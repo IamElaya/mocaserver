@@ -1146,11 +1146,14 @@ hr.blackline {
   min-width: 33.33%;
   height: 100%;
   background-color: white;
-  padding-left: 5%;
 }
 
 #locations h1 {
   color: #EF5F2B;
+}
+
+#locations h2 {
+  text-align: center;
 }
 
 
@@ -1411,5 +1414,11 @@ hr.blackline {
 #share {
   width: 25vw;
   margin: 0 auto;
+}
+
+#list {
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 

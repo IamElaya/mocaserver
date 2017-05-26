@@ -18,31 +18,23 @@
     </div> -->
     <div id="locationsmobile">
       <div class="row">
-        <div class="col-xs-5">
-          <h1><%= link_to "Toronto", torontos_path %></h1>
-        </div>
-        <div class="col-xs-5">
+        <div class="col-xs-6">
           <h1><%= link_to "Vancouver", shops_path %></h1>
         </div>
+        <div class="col-xs-6">
+          <h1><%= link_to "Body Shops", body_shops_partners_path %></h1>
+        </div>
       </div>
-
     </div>
-<!--     <div id="shopsearch">
-      <div class="form-group">
-        <label for="bodyShop" class="col-sm-2 control-label"></label>
-        <div class="col-sm-12">
-          <input type="bodyshop" class="form-control" id="bodyShop" placeholder="Search Body Shop">
-        </div>
-      </div>
-    </div> -->
-    <div id="fullpartners" class="row">
-        <div id="locations" class="col-md-6">
-          <h2><%= link_to "Toronto", torontos_path %></h2>
-        </div>
         <div id="locations" class="col-md-6">
           <h2><%= link_to "Vancouver", shops_path %></h2>
         </div>
-    </div>
+        <div id="locations" class="col-md-6">
+          <h2><%= link_to "Body Shops", body_shops_partners_path %></h2>
+        </div>
+                <div id="my_list" class="row">
+                  <%= render "shop" %>
+                </div>
     <!--             <div class="col-md-4">
                   <div class="thumbnail">
                     <img src="/images/sam3_rgt.jpg">

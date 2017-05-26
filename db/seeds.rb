@@ -11,6 +11,10 @@ CSV.foreach("db/data/shops.csv") do |row|
   Shop.create({title: row[0], url: row[1], lat: row[2], lng: row[3], address: row[4], updated: row[5]})
 end
 
+CSV.foreach("db/data/tshops.csv") do |row|
+  Toronto.create({title: row[0], url: row[1], lat: row[2], lng: row[3], address: row[4], updated: row[5]})
+end
+
 # require 'csv'    
 
 # csv_text = File.read("data/shops.csv")

@@ -1,0 +1,8 @@
+<h1 id="list">Toronto Body Shops</h1>
+<div class="row">
+<% @torontos.each do |toronto| %>
+  <div class="col-md-2">
+    <div class="moviepagepic"><%= link_to toronto.title, toronto.url %></div>
+  </div>
+</div>
+<% end %>
