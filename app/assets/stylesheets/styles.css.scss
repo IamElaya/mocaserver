@@ -743,7 +743,7 @@ span:hover {
 }
 
 #ojtitle {
-  margin-top: 0;
+  margin-top: -1%;
   height: 20%;
   text-align: center;
   background-color: #EF5F2B;
@@ -1427,3 +1427,8 @@ hr.blackline {
   text-align: center;
 }
 
+.bodytitle a {
+  color: #EF5F2B;
+  font-family: impact, "Gidole-reg", HelveticaNeue;
+  font-size: 40px;
+}
